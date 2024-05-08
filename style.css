@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(216, 35, 35);
+}
+.container{
+    height:700px;
+    width:1000px;
+    background-image: url("shinshan.jpeg");
+    background-size: cover;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    filter:drop-shadow(20px 20px 40px rgb(236, 231, 231));
+}
+.wishes{
+    height:60%;
+    width:75%;
+    margin-left:500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor:url("stick.jpg")6 19,auto ;
+}
+.wishs{
+    height: 30px;
+    width:350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wish{
+    height: 30px;
+    width: 280px;
+    background-color: rgb(135, 15, 15);
+    border-color:black;
+    color:white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wish:hover{
+    background:rgb(247, 86, 113);
+    border-color: #f603a3
+}
+.wish:active{
+    background:rgb(247, 86, 113);
+    border-color: #f603a3;
+}
+
+.com{
+    height: 30px;
+    width:30px;
+}
+
+.done{
+    height:100px;
+    width:200px;
+    background-color: red;
+    font-size: 30px;
+    font-family: italic;
+    color: white;
+    border-radius: 20px;
+    filter:drop-shadow(5px 5px rgba(255, 192, 203, 0.753));
+}
